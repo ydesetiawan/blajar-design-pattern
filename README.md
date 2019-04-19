@@ -1,5 +1,5 @@
-# codeghaib - yd-design-pattern
-## Intro Design Pattern
+# codeghaib - Design Pattern
+## Intro
 
 Pattern aslinya dari konsep arsitektur yang dibuat oleh Christopher Alexander. Di tahun 1987, Kent Beck menerapkan pattern tersebut ke dalam bahasa pemrograman. Akhirnya design pattern itu sendiri populer dikalangan pemrograman setelah terbit “Design Patterns Elements of Reusable Object-Oriented Software” tahun 1994 yang diterbitkan oleh “Gang of Four” (Erich Gamma cs).
 
