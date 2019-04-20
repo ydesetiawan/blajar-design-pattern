@@ -1,30 +1,21 @@
 package com.codeghaib.designpattern.abstractfactory;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.List;
 
 public class ClientSide {
 
     public static void main(String[] args) {
 
-        Transaction transactionPPN = new Transaction(getProducs(), TaxFactory.getFactory(TaxType.PPN));
-        System.out.println("grandTotal : " + transactionPPN.getGrandTotal());
+        TaxAbstractFactory taxPPN = TaxAbstractFactory.getFactory(TaxType.PPN, new BigDecimal("1000000"));
+        BigDecimal taxPPNTotal = taxPPN.calculate();
 
-        Transaction transactionPPNBM = new Transaction(getProducs(), TaxFactory.getFactory(TaxType.PPNBM));
-        System.out.println("grandTotal : " + transactionPPNBM.getGrandTotal());
+        System.out.println("taxTotal PPN : " + taxPPNTotal);
 
-        Transaction transactionWithoutTax = new Transaction(getProducs(), null);
-        System.out.println("grandTotal : " + transactionWithoutTax.getGrandTotal());
+        TaxAbstractFactory taxPPNBM = TaxAbstractFactory.getFactory(TaxType.PPNBM, new BigDecimal("1000000"));
+        BigDecimal taxPPNBMTotal = taxPPNBM.calculate();
 
-    }
+        System.out.println("taxTotal PPNBM : " + taxPPNBMTotal);
 
-    public static List<Product> getProducs() {
-        return Arrays.asList(
-            new Product("1", "Product A", new BigDecimal("100000")),
-            new Product("2", "Product B", new BigDecimal("140000")),
-            new Product("3", "Product C", new BigDecimal("60000"))
-            );
     }
 
 }
