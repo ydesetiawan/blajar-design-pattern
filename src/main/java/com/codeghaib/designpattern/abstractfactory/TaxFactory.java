@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.factory;
+package com.codeghaib.designpattern.abstractfactory;
 
 public class TaxFactory {
 
