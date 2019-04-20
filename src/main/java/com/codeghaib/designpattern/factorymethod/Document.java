@@ -1,10 +1,11 @@
 package com.codeghaib.designpattern.factorymethod;
 
-import lombok.AllArgsConstructor;
-
-@AllArgsConstructor
 public class Document {
 
     private String name;
+
+    public Document(String name) {
+        this.name = name;
+    }
 
 }

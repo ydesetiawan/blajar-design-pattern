@@ -1,6 +1,6 @@
 package com.codeghaib.designpattern.factorymethod;
 
-public class DbMysql implements Storage {
+public class DBMysql implements Storage {
 
     @Override
     public void save(Document document) {

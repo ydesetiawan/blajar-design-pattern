@@ -6,13 +6,13 @@ public class StorageFactory {
         Storage storage;
         switch (storageType) {
             case DB_MYSQL:
-                storage = new DbMysql();
+                storage = new DBMysql();
                 break;
             case DB_CASSANDRA:
-                storage = new DbCassandra();
+                storage = new DBCassandra();
                 break;
             case DB_ELASTICSEARCH:
-                storage = new DbElasticsearch();
+                storage = new DBElasticsearch();
                 break;
             default:
                 storage = null;
