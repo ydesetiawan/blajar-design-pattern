@@ -1,6 +1,6 @@
 package com.codeghaib.designpattern.factorymethod;
 
-public class ClientMain {
+public class FactoryMethodDemo {
 
     public static void main(String[] args) {
         Storage storageMysql = StorageFactory.getFactory(StorageType.DB_MYSQL);
