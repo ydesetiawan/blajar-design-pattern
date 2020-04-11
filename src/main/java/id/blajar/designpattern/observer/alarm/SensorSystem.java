@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.observer.alarm;
+package id.blajar.designpattern.observer.alarm;
 
 import java.util.Enumeration;
 import java.util.Vector;

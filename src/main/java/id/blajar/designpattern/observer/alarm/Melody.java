@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.observer.alarm;
+package id.blajar.designpattern.observer.alarm;
 
 public class Melody extends CheckList implements AlarmListener {
     public void alarm() {

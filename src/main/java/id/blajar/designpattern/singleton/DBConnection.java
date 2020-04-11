@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.singleton;
+package id.blajar.designpattern.singleton;
 
 public class DBConnection {
 

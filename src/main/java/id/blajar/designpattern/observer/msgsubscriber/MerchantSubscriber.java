@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.observer.msgsubscriber;
+package id.blajar.designpattern.observer.msgsubscriber;
 
 public class MerchantSubscriber implements Observer
 {

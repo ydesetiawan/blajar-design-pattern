@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.abstractfactory;
+package id.blajar.designpattern.abstractfactory;
 
 public enum TaxType {
     PPN, PPNBM

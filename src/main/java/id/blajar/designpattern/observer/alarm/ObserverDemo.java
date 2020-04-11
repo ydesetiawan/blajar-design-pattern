@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.observer.alarm;
+package id.blajar.designpattern.observer.alarm;
 
 public class ObserverDemo {
     public static void main( String[] args ) {

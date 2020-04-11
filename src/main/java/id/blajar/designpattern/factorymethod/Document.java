@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.factorymethod;
+package id.blajar.designpattern.factorymethod;
 
 public class Document {
 

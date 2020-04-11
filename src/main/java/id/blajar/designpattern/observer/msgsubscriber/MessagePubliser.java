@@ -1,4 +1,4 @@
-package com.codeghaib.designpattern.observer.msgsubscriber;
+package id.blajar.designpattern.observer.msgsubscriber;
 
 import java.util.ArrayList;
 import java.util.List;
